@@ -1,8 +1,3 @@
-# fehlend:
-# Donnerstag: alm, ma, Sch
-# Dienstag: Sc
-# Mittwoch: darstellendes Spiel
-# Freitag: Spanisch, Pi
 import json
 
 
@@ -26,8 +21,7 @@ def main(ta,day,teach,less,fach,etea,eles,lass):
         data = json.load(f)
         data = data["Data"][dayindex]
     try:
-        print(data[less], teach, hex(id(data[less])), hex(id(teach)), hex(id("KröK")))
-        if data[less] == teach:
+        if data[less] == teach or teach in data[less]:
             ne = sabber(day,less,ta,teach,fach,etea,eles,lass)
             print(ne)
     except Exception as e:

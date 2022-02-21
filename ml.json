@@ -16,7 +16,12 @@
             "3": "SchA",
             "4": "SchA",
             "3 - 4": "SchA",
-            "5": "FuhL"
-        }
+            "5": ["FuhL","KleS","ScJu"]
+        },
+        {
+            "1": "MesD",
+            "2": "MesD",
+            "1 - 2": "MesD",
+            "3": ["SerD","FuhL"]
     ]
 }

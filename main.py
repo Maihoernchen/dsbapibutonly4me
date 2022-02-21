@@ -13,8 +13,9 @@ def main():
     ownFields = ['Stunde','Lehrer','Fach','Raum','Anmerkung','Typ']
     dsbclient = dsb.DSBApi("243322", "HammerHai21", tablemapper=ownFields)
     entries = dsb.DSBApi.fetch_entries(dsbclient)
-    if len(entries) < 1:
+    if len(entries) > 1:
         entries = entries[0]
+    print(len(entries))
     dayvar = entries[0]
     day = dayvar['day']
     finall = []

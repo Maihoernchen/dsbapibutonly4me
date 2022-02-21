@@ -1,6 +1,15 @@
 import discord
+import json
+
 
 def main(mess):
+
+    with open("../config.json", "r") as f:
+        data = json.load(f)
+        print(data)
+
+    token = data["token"]
+    print(token)
 
     client = discord.Client()
 
@@ -10,5 +19,5 @@ def main(mess):
         channel = client.get_channel(796477959766278264)
         await channel.send(mess)
 
-    client.run("Nzk2MDEyMDQ3OTUxMjAwMzM4.X_Rt_Q.K8lT1vL5sDTPLyQCosc8smn3Dt8")
+    client.run(token)
 
