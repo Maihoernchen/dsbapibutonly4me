@@ -22,6 +22,27 @@
             "1": "MesD",
             "2": "MesD",
             "1 - 2": "MesD",
-            "3": ["SerD","FuhL"]
+            "3": ["SerD","FuhL"],
+            "4": ["SteU","ScHe","BenG","SoaA","PesK"],
+            "5": ["SteU","ScHe","BenG","SoaA","PesK"],
+            "4 - 5": ["SteU","ScHe","BenG","SoaA","PesK"],
+            "6": "CosK",
+            "8": ["HahS","DroM"]
+        },
+        {
+            "0": ["FuhL","KleS","ScJu"],
+            "1": "CosK",
+            "2": "CosK",
+            "1 - 2": "CosK",
+            "3": ["MenO","MutR","DalJ","MaiL","PreM"],
+            "4": ["MenO","MutR","DalJ","MaiL","PreM"],
+            "3 - 4": ["MenO","MutR","DalJ","MaiL","PreM"],
+            "5": ["SerD","FuhL","HahS","DroM"],
+            "6": ["SerD","FuhL","HahS","DroM"],
+            "5 - 6": ["SerD","FuhL","HahS","DroM"],
+            "7": ["EssH","SteK"],
+            "8": ["EssH","SteK"],
+            "7 - 8": ["EssH","SteK"]
+        }
     ]
 }

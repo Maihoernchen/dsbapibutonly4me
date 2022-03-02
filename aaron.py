@@ -18,6 +18,7 @@ def main(mess):
         print('Logged in as user {}'.format(client.user.name))
         channel = client.get_channel(796477959766278264)
         await channel.send(mess)
+        await client.close()
 
     client.run(token)
-
+    return
